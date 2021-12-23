@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# If there is no .scalingo/compile.sh, then don't apply this buildpack
+[[ ! -f "$1/.scalingo/compile.sh" ]] &&  exit 1
+
+echo "Shell"
