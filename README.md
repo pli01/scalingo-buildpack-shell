@@ -29,7 +29,7 @@ echo 'echo "hello world"' >.scalingo/compile.sh
 
 You can specify the latest production release of this buildpack for upcoming builds of an existing application:
 ```bash
-scalingo env-set BUILDPACK_URL=https://github.com/Scalingo/python-buildpack
+scalingo env-set BUILDPACK_URL=https://github.com/pli01/scalingo-buildpack-shell
 ```
 
 
